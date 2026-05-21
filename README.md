@@ -17,5 +17,12 @@ The 5-Layer AI Skill Pyramid outlines the essential components for successful an
 *   **Ethical AI & Responsibility:** The top layer ensures AI systems are fair, transparent, private, and developed responsibly with societal impact in mind.
 
 
+## Day 2 — Setup complete
+
+- ✅ Skill Extracting form the text file where multiple resumes contains working — see [Day2_ResumeExtractor.ipynb](Day2_ResumeExtractor.ipynb) 
+
+
+
+
 
 
