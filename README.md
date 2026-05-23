@@ -24,9 +24,9 @@ The 5-Layer AI Skill Pyramid outlines the essential components for successful an
 
 # Day 5 — Résumé Scorer Streamlit
 
-**Live URL:** https://your-app-name.streamlit.app  
-**Code:** [app.py](app.py)  
-**Acceptance Log:** [acceptance_log.md](acceptance_log.md)
+**Live URL:**   https://ai-mentor-portfolio-hxg49uezqlqradiznbwig8.streamlit.app/
+**Code:** [Day-5/resume-scorer/app.py](app.py)  
+**Acceptance Log:** [Day-5/resume-scorer/acceptance_log.md](acceptance_log.md)
 
 ## Tools Used
 
