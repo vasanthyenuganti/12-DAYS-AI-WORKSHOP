@@ -1,0 +1,21 @@
+# Day 4 Lab 4B — n8n self-hosted (free, no cloud account)
+# Run: docker compose -f n8n_docker-compose.yml up -d
+# Open: http://localhost:5678
+# Login: admin / changeme  (change before use)
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=Asia/Kolkata
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=changeme
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:
